@@ -10,6 +10,8 @@
   <%= @article.description %>
 </p>
 
+<%= link_to image_tag(@article.illustration.url), @article.illustration.url %>
+
 <%= link_to "retour", articles_path %>
 <%= link_to "modifier", edit_article_path(@article) %>
 <%= link_to "détruire", @article, method: :delete %>

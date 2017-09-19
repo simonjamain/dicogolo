@@ -3,12 +3,14 @@
 <table>
   <tr>
     <th>titre</th>
+    <th>illustration</th>
     <th>description</th>
   </tr>
  
   <% @articles.each do |article| %>
     <tr>
       <td><%= article.title %></td>
+      <td><%= link_to image_tag(article.illustration.url), article.illustration.url %></td>
       <td><%= article.description %></td>
       <td><%= link_to "Afficher", article %></td>
     </tr>
