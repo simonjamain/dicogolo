@@ -10,7 +10,8 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.description %></td>
-      <td><%= link_to 'Afficher', article %></td>
+      <td><%= link_to "Afficher", article %></td>
+      <td><%= link_to "détruire", article, method: :delete %></td>
     </tr>
   <% end %>
 </table>
