@@ -1,0 +1,7 @@
+<%= form_for article do |articleForm| %>
+  <%= articleForm.text_field :title %>
+  <%= articleForm.file_field :illustration %>
+  <%= articleForm.text_area :description %>
+  <%= articleForm.submit submitBody %>
+<% end %>
+

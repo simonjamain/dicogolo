@@ -1,5 +1,2 @@
-<%= form_for @article do |articleForm| %>
-  <%= articleForm.text_field :title %>
-  <%= articleForm.text_area :description %>
-  <%= articleForm.submit "mettre à jour l'article" %>
-<% end %>
+<%= render partial: "form", locals: {article: @article, submitBody: "mettre à jour l'article"} %>
+
