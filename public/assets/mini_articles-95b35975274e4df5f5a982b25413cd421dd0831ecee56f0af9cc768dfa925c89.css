@@ -1,0 +1,90 @@
+/* line 6, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article {
+  color: #505050;
+  font-weight: 300;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+/* line 22, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article header {
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+/* line 32, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article header h1 {
+  color: #FFFFFF;
+  margin: 0.5em;
+}
+/* line 37, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article > div {
+  padding: 1rem;
+  flex-grow: 5;
+  flex-basis: 0;
+}
+/* line 38, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article > div p {
+  margin: 0;
+}
+
+/* masonry-style layout */
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main {
+  column-gap: 1.5em;
+  margin: 0 auto;
+  padding: 2em;
+}
+/* line 56, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+main article {
+  display: inline-block;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+@media only screen and (min-width: 34em) {
+  /* line 66, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+  main {
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 51em) {
+  /* line 72, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+  main {
+    column-count: 3;
+  }
+}
+@media only screen and (min-width: 68em) {
+  /* line 78, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+  main {
+    column-count: 4;
+  }
+}
+@media only screen and (min-width: 85em) {
+  /* line 84, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+  main {
+    column-count: 5;
+  }
+}
+@media only screen and (min-width: 102em) {
+  /* line 90, /home/ubuntu/workspace/app/assets/stylesheets/mini_articles.scss */
+  main {
+    width: 1260px;
+  }
+}

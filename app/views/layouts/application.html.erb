@@ -2,13 +2,20 @@
 <html>
 <head>
   <title>Workspace</title>
+  <script src="https://use.fontawesome.com/c6696e46e7.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
+  <%= yield :viewSpecificStylesheets %>
 </head>
 <body>
 
+<%= render "/layouts/header" %>
+
 <%= yield %>
+
+<%= render "/common/fab" %>
 
 </body>
 </html>

@@ -1,0 +1,81 @@
+main a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main article {
+  color: #505050;
+  font-weight: 300;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main article header {
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+main article header h1 {
+  color: #FFFFFF;
+  margin: 0.5em;
+}
+
+main article>div {
+  padding: 1rem;
+  flex-grow: 5;
+  flex-basis: 0;
+}
+
+/* masonry-style layout */
+
+main {
+  column-gap: 1.5em;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+main article {
+  display: inline-block;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+@media only screen and (min-width: 34em) {
+  main {
+    column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 51em) {
+  main {
+    column-count: 3;
+  }
+}
+
+@media only screen and (min-width: 68em) {
+  main {
+    column-count: 4;
+  }
+}
+
+@media only screen and (min-width: 85em) {
+  main {
+    column-count: 5;
+  }
+}
+
+@media only screen and (min-width: 102em) {
+  main {
+    width: 1260px;
+  }
+}
+
+/*# sourceMappingURL=mini_articles.css.map */
