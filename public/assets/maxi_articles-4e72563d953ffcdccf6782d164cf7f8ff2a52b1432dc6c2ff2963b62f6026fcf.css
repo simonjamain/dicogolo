@@ -1,0 +1,20 @@
+/* line 3, /home/ubuntu/workspace/app/assets/stylesheets/maxi_articles.scss */
+article {
+  max-width: 43.750em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+/* line 7, /home/ubuntu/workspace/app/assets/stylesheets/maxi_articles.scss */
+article h1 {
+  font-weight: 300;
+  font-size: 6em;
+  margin: 0.1em 0;
+}
+/* line 13, /home/ubuntu/workspace/app/assets/stylesheets/maxi_articles.scss */
+article img {
+  width: 100%;
+}
+/* line 16, /home/ubuntu/workspace/app/assets/stylesheets/maxi_articles.scss */
+article pre {
+  white-space: pre-wrap;
+}
