@@ -2,6 +2,10 @@
   <%= articleForm.text_field :title %>
   <%= articleForm.file_field :illustration %>
   <%= articleForm.text_area :description %>
-  <%= articleForm.submit submitBody %>
+  
+  <%= content_tag :button, type: :submit, id: "secondary-floating-action-button" do %>
+    <i class="fa fa-floppy-o" aria-hidden="true"></i>
+  <% end %>
+  
 <% end %>
 
