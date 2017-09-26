@@ -3,7 +3,7 @@ class AddAttachmentIllustrationToArticles < ActiveRecord::Migration
     change_table :articles do |t|
       t.attachment :illustration,
         styles: { 
-          maxi: "700x466#",
+          maxi: "840x560#",
           mini: "600x400#"
         }
     end
