@@ -12,6 +12,5 @@ ready_post = ->
 
     reader.readAsDataURL(input.files[0]);
 
-$(document).ready(ready_post)
-$(document).on('page:load', ready_post)
+$(document).on('turbolinks:load', ready_post)
 
