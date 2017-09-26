@@ -1,0 +1,10 @@
+@mixin centered-icon-button($size) {
+  width: $size;
+  height: $size;
+  text-align: center;
+
+  i {
+    font-size: $size / 3;
+    margin: 1em 0;
+  }
+}

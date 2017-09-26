@@ -3,6 +3,7 @@ $logoMargin: 2em;
 body>header {
   /*ne pas change la taille de la police*/
   position: absolute;
+  z-index: $zIndexHeader;
   top: 0;
   width: 100%;
   background-color: $colorPrimary;

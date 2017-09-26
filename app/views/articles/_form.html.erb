@@ -1,10 +1,18 @@
 <%= form_for article do |articleForm| %>
+
+  <div>
+    <%= image_tag article.illustration.url(:maxi), alt: @article.title %>
+    <div class="image_to_upload_overlay"></div>
+    <%= label :article, :illustration do %>
+      <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+    <% end %>
+    <%= articleForm.file_field :illustration, class: 'photo_upload', style: "visibility:hidden;" %>
+  </div>
   <%= articleForm.text_field :title %>
-  <%= articleForm.file_field :illustration %>
   <%= articleForm.text_area :description %>
   
   <%= content_tag :button, type: :submit, id: "secondary-floating-action-button" do %>
-    <i class="fa fa-floppy-o" aria-hidden="true"></i>
+    <i class="fa <%= fabFontawesomeIconName %>" aria-hidden="true"></i>
   <% end %>
   
 <% end %>

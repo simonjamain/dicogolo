@@ -1,0 +1,67 @@
+@import '_maxi_articles';
+
+[data-controller="articles"][data-action="new"],
+[data-controller="articles"][data-action="edit"] {
+  form {
+    @include maxiArticleBody;
+
+    #article_title {
+      @extend h1;
+      @include maxiArticleTitle;
+      color: inherit;
+      width: 100%;
+      font-family: inherit;
+      line-height: inherit;
+    }
+
+    >textarea {
+      width: 100%;
+      min-height: 10em;
+      color: inherit;
+      font-size: inherit;
+      font-family: inherit;
+      line-height: inherit;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    >div {
+      position: relative;
+
+      z-index: $zIndexContent;
+
+      .image_to_upload_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+
+  }
+}
+
+[for="article_illustration"] {
+  @include centered-icon-button(10em);
+  @include enable-transition;
+
+  background-color: $colorLight;
+  border-radius: 1em;
+  color: $colorTertiary;
+
+  &:hover {
+    cursor: pointer;
+    color: $colorTertiaryLight;
+  }
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5em;
+  margin-top: -5em;
+}

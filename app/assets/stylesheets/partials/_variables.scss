@@ -7,14 +7,23 @@ $colorTertiaryLight: #3794F4;
 $colorLight: #FFFFFF;
 $colorDark: #505050;
 
+$zIndexHeader: 50;
+$zIndexContent: 25;
+
 $colorText: $colorDark;
+$colorCardBackground: $colorLight;
 
 $mainSpaceSize: 4em;
 $minCardWidth: 20em;
 $cardGutterWidth: 1.5em;
-$colorCardBackground: $colorLight;
+
+$maxMaxiArticleWidth: 43.750em;
 
 $mainFabSize: 7rem;
 $secondaryFabSize: 4rem;
 
 $headerHeight: 10.250em;
+
+@mixin enable-transition {
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
