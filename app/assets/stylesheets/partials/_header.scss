@@ -2,13 +2,12 @@ $logoMargin: 2em;
 
 body>header {
   /*ne pas change la taille de la police*/
-  position: absolute;
+  position: relative;
   z-index: $zIndexHeader;
   top: 0;
   width: 100%;
   background-color: $colorPrimary;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
-  margin-bottom: 9px;
 
   img {
     margin: $logoMargin;
