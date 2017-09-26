@@ -1,2 +1,5 @@
+<% content_for :pageTitle do %>
+  <%= @article.title %>*
+<% end %>
 <%= render partial: "form", locals: {article: @article, submitBody: "mettre à jour l'article"} %>
 

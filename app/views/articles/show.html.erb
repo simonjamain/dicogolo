@@ -1,17 +1,19 @@
-<p>
-  <strong>Title:</strong>
+<% content_for :viewSpecificStylesheets do %>
+  <%= stylesheet_link_tag "maxi_articles" %>
+<% end %>
+
+<% content_for :pageTitle do %>
   <%= @article.title %>
-</p>
+<% end %>
 
-<br> 
+<article>
+  <header>
+    <%= image_tag @article.illustration.url(:maxi), alt: @article.title %>
+    <h1><%= @article.title %></h1>
+  </header>
+  <pre>
+    <%= @article.description %>
+  </pre>
+</article>
 
-<p>
-  <strong>Description:</strong>
-  <%= @article.description %>
-</p>
-
-<%= link_to image_tag(@article.illustration.url), @article.illustration.url %>
-
-<%= link_to "retour", articles_path %>
 <%= link_to "modifier", edit_article_path(@article) %>
-<%= link_to "détruire", @article, method: :delete %>

@@ -1,1 +1,4 @@
+<% content_for :pageTitle do %>
+  nouvel article
+<% end %>
 <%= render partial: "form", locals: {article: @article, submitBody: "créer l'article"} %>
