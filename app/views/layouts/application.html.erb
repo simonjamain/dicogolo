@@ -11,7 +11,7 @@
   
   <%= yield :viewSpecificStylesheets %>
 </head>
-<body>
+<body data-controller="<%= controller.controller_path %>" data-action="<%= controller.action_name %>">
 
 <%= render "/layouts/header" %>
 
