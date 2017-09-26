@@ -1,7 +1,3 @@
-<% content_for :viewSpecificStylesheets do %>
-  <%= stylesheet_link_tag "maxi_articles" %>
-<% end %>
-
 <% content_for :pageTitle do %>
   <%= @article.title %>
 <% end %>
@@ -16,4 +12,4 @@
   </pre>
 </article>
 
-<%= link_to "modifier", edit_article_path(@article) %>
+<%= render partial: "/common/secondary_fab", locals: {fabUrl: edit_article_path(@article), fabFontawesomeIconName: "fa-pencil"} %>
