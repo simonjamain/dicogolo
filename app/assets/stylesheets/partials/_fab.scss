@@ -31,7 +31,7 @@
 }
 
 #secondary-floating-action-button {
-  @include floating-action-button($secondaryFabSize, $colorTertiary, $colorTertiaryLight);
+  @include floating-action-button($secondaryFabSize, $colorQuaternary, $colorQuaternaryLight);
 
   $marginBot: $mainFabSize + $mainFabSize / 2 + $secondaryFabSize / 2;
   $marginRight: ( $mainFabSize - $secondaryFabSize) / 2 + $mainFabSize / 2;

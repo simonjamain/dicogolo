@@ -2,4 +2,4 @@
   <%= @article.title %>*
 <% end %>
 <%= render partial: "form", locals: {article: @article, fabFontawesomeIconName: "fa-floppy-o"} %>
-
+<%= secondaryFab article_path(@article), "fa-arrow-left" %>

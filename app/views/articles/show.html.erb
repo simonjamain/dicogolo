@@ -11,5 +11,5 @@
     <%= @article.description %>
   </pre>
 </article>
-
-<%= render partial: "/common/secondary_fab", locals: {fabUrl: edit_article_path(@article), fabFontawesomeIconName: "fa-pencil"} %>
+<%= secondaryFab articles_path, "fa-arrow-left" %>
+<%= mainFab edit_article_path(@article), "fa-pencil" %>
