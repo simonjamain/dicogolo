@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="186.00209mm"
+   height="123.825mm"
+   viewBox="0 0 186.00209 123.825"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     y="0"
+     x="0"
+     height="123.825"
+     width="186.00209"
+     id="rect4484"
+     style="opacity:1;fill:#3794f4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458335;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <g
+     id="layer1"
+     transform="translate(86.197472,3.037497)">
+    <path
+       id="path4496"
+       d="m -11.427846,40.643584 q 0,4.55785 -3.190499,7.748349 -3.190497,3.1905 -7.748353,3.1905 -4.557856,0 -7.748353,-3.1905 -3.190498,-3.190499 -3.190498,-7.748349 0,-4.557858 3.190498,-7.748358 3.190497,-3.190499 7.748353,-3.190499 4.557856,0 7.748353,3.190499 3.190499,3.1905 3.190499,7.748358 z m 58.340542,21.877697 v 25.523987 h -80.218245 v -10.93885 l 18.23142,-18.231417 9.115709,9.115709 29.17027,-29.170267 z m 5.469428,-40.109122 h -91.157099 q -0.740651,0 -1.281896,0.541249 -0.541247,0.541242 -0.541247,1.281899 v 69.279381 q 0,0.74066 0.541247,1.2819 0.541245,0.54124 1.281896,0.54124 h 91.157099 q 0.740649,0 1.281891,-0.54124 0.541249,-0.54124 0.541249,-1.2819 V 24.235307 q 0,-0.740657 -0.541249,-1.281899 -0.541242,-0.541249 -1.281891,-0.541249 z m 9.115708,1.823148 v 69.279381 q 0,3.76024 -2.677744,6.43798 -2.677736,2.677732 -6.437964,2.677732 h -91.157099 q -3.760231,0 -6.437971,-2.677732 -2.677739,-2.67774 -2.677739,-6.43798 V 24.235307 q 0,-3.760235 2.677739,-6.437972 2.67774,-2.677737 6.437971,-2.677737 h 91.157099 q 3.760228,0 6.437964,2.677737 2.677744,2.677737 2.677744,6.437972 z"
+       style="stroke-width:0.26458332;fill:#0a5fb5;fill-opacity:1" />
+  </g>
+</svg>

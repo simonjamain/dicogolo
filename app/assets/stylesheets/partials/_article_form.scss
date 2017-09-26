@@ -50,13 +50,14 @@
   @include centered-icon-button(10em);
   @include enable-transition;
 
-  background-color: $colorLight;
+  background-color: $colorLight50;
   border-radius: 1em;
   color: $colorTertiary;
 
   &:hover {
     cursor: pointer;
     color: $colorTertiaryLight;
+    background-color: $colorLight;
   }
 
   position: absolute;
