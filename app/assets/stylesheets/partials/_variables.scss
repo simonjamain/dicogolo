@@ -9,12 +9,14 @@ $colorQuaternaryLight: #E55A5A;
 $colorLight: #FFFFFF;
 $colorLight50: rgba(255, 255, 255, 0.5);
 $colorDark: #505050;
+$colorDark50: rgba(80, 80, 80, 0.5);
 
 $zIndexHeader: 50;
 $zIndexContent: 25;
 
 $colorText: $colorDark;
 $colorCardBackground: $colorLight;
+$colorPlaceHolder: $colorDark50;
 
 $mainSpaceSize: 4em;
 $minCardWidth: 20em;

@@ -8,8 +8,8 @@
     <% end %>
     <%= articleForm.file_field :illustration, class: 'photo_upload', style: "visibility:hidden;" %>
   </div>
-  <%= articleForm.text_field :title %>
-  <%= articleForm.text_area :description %>
+  <%= articleForm.text_field :title, placeholder: "entrez un titre" %>
+  <%= articleForm.text_area :description, placeholder: "entrez une description" %>
 
   <%= content_tag :button, type: :submit, id: "main-floating-action-button" do %>
     <i class="fa <%= fabFontawesomeIconName %>" aria-hidden="true"></i>
